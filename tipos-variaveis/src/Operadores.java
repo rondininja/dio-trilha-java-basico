@@ -2,6 +2,22 @@ public class Operadores {
 
     public static void main(String[] args) {
         
+        int a, b;
+
+        a = 5;
+        b = 6;
+        
+        String resultado = a == b ?"Verdadeiro" : "Falso";
+
+        // if(a==b)
+        //     resultado = "verdadeiro";
+        // else
+        //     resultado = "falso";
+
+        System.out.println(resultado);
+
+        /*
+
         boolean variavel = true;
 
         System.out.println(!variavel);
@@ -10,8 +26,9 @@ public class Operadores {
         variavel = !variavel;
         System.out.println(variavel);
 
+        ---------------------------------------------------------------------------------------
 
-        /*
+
         int numero = 5;
         x repetição
 
